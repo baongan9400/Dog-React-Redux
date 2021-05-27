@@ -11,9 +11,9 @@ export const selectedDogs = (dogs) => {
         payload: dogs,
     };
 };
-export const setDogs = (dog) => {
+export const removeDog = (dog) => {
     return {
-        type: ActionTypes.SELECTED_DOG,
+        type: ActionTypes.REMOVE_SELECTED_DOG,
         payload: dog,
     };
 };

@@ -4,4 +4,4 @@ import {dogReducer} from './dogReducer';
 const reducers = combineReducers({
     allDogs: dogReducer
 });
-export default reducers;
+export default reducers;// Root reducer
