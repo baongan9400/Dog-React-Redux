@@ -1,0 +1,5 @@
+export const ActionTypes = {
+    SET_DOGS : "SET_DOGS",
+    SELECTED_DOG: "SELECTED_DOG",
+    REMOVE_SELECTED_DOG: "REMOVE_SELECTED_DOG",
+};
