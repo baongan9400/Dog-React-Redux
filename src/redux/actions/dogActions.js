@@ -5,10 +5,10 @@ export const setDogs = (dogs) => {
         payload: dogs,
     };
 };
-export const selectedDogs = (dogs) => {
+export const selectedDog = (dog) => {
     return {
-        type: ActionTypes.SET_DOGS,
-        payload: dogs,
+        type: ActionTypes.SELECTED_DOG,
+        payload: dog,
     };
 };
 export const removeDog = (dog) => {

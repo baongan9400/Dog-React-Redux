@@ -6,8 +6,9 @@ import DogComponent from './DogComponent';
 import {setDogs} from '../redux/actions/dogActions';
 
 import "../index.css"
+
 const DogList = () =>{
-    const dogs = useSelector((state => state.allDogs.dogs)); //access the redux store's state
+    const dogs = useSelector(state => state.allDogs.dogs); //access the redux store's state
     const dispatch = useDispatch();
     const fetchDogs = async () => {
         const response = await axios
