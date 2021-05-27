@@ -1,8 +1,10 @@
 import React, {useEffect} from 'react';
 import axios from "axios";
+import { useDispatch, useSelector } from "react-redux";
+
 import DogComponent from './DogComponent';
 import {setDogs} from '../redux/actions/dogActions';
-import { useDispatch, useSelector } from "react-redux";
+
 import "../index.css"
 const DogList = () =>{
     const dogs = useSelector((state => state.allDogs.dogs)); //access the redux store's state
