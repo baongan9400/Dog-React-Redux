@@ -1,7 +1,7 @@
 import {combineReducers} from 'redux';
-import {dogReducer} from './dogReducer';
+import {dogReducer, selectedDogReducer} from './dogReducer';
 
 const reducers = combineReducers({
-    allDogs: dogReducer
+    allDogs: dogReducer,
 });
-export default reducers;
+export default reducers;// Root reducer
